@@ -33,6 +33,7 @@ categories: [trabajo BigData, pinguinos]
 
 format:
   html:
+    favicon: imagenes/uv.jpeg          
     #- https://quarto.org/docs/output-formats/html-themes.html
     theme: flatly   
     #- code highlight: https://quarto.org/docs/output-formats/html-code.html#highlighting        

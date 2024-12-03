@@ -1,8 +1,6 @@
 project:
   title: "trabajo_BigData"
   
-favicon: imagenes/uv.jpeg          
-
 #- hace el rendered documento (.html) autocontenido  
 embed-resources: true  
 
