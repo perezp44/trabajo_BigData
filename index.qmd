@@ -81,8 +81,7 @@ El dataset contiene observaciones sobre un conjunto de `r nrow(df)` pingüinos d
 Vamos a ver una foto de un pingüino:
 
 
-
-![Un pingüino chulo: By Robert Elliott of WikiU Film School - Created with DAZ Studio](https://upload.wikimedia.org/wikipedia/commons/c/cf/3D_Universe_Percy_w_cloths_1.png){#fig-01 fig-align="left" width="10%"}
+![Un pingüino chulo: By Robert Elliott of WikiU Film School](https://upload.wikimedia.org/wikipedia/commons/c/cf/3D_Universe_Percy_w_cloths_1.png){#fig-01 fig-align="left" width="10%"}
 
 ---
 
