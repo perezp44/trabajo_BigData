@@ -1,13 +1,18 @@
 project:
   title: "trabajo_BigData"
-  
+
+#- para incluir el logo de la UV en la pestaña del navegador
+include-in-header:
+  - text: |
+     <link rel = "shortcut icon" href = "imagenes/uv.jpeg" />
+     
 #- hace el rendered documento (.html) autocontenido  
 embed-resources: true  
 
-#- anchor sections (links en secciones del rendered document)
+#- anchor sections (links en las secciones del rendered document)
 anchor-sections: true
 
-#- otros enlaces (aparecerán debajo del TOC)
+#- otros enlaces (que aparecerán debajo del TOC)
 other-links:
   - text: Web del curso
     href: https://perezp44.github.io/intro-ds-24-25-web/
@@ -15,14 +20,14 @@ other-links:
     href: https://perezp44.github.io/intro-ds-24-25-web/05-trabajos-estudiantes.html 
   - text: Repo del trabajo
     #- has de cambiar "perezp44" por tu usuario de Github
-    href: https://perezp44.github.io/trabajo_BigData/
+    href: https://github.com/perezp44/trabajo_BigData
   
 #- opciones para el índice (TOC)
 toc: true
 toc-depth: 3
 toc-location: left    
 
-#- los links se abren en pestañas nuevas
+#- hace que los links se abren en pestañas nuevas
 link-external-newwindow: true 
 
 #- Cross-references
@@ -40,9 +45,6 @@ fig-cap-location: bottom
 fig-format: png
 fig-dpi: 300
 
-#- opciones de lenguaje
-lang: es  #- castellano {es, en}
-language: assets/_my_language-es.yml
 
 #- opciones para los chunks de código --
 #- https://quarto.org/docs/output-formats/html-code.html
@@ -81,6 +83,11 @@ editor_options:
 
 #- licencia: https://quarto.org/docs/reference/formats/html.html#metadata
 license: CC BY
+
+#- opciones de lenguaje
+lang: es  #- castellano {es, en}
+language: assets/_my_language-es.yml
+
 
 # comments:
 #   hypothesis: 
