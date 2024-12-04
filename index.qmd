@@ -2,7 +2,7 @@
 # title: "Los pingüinos molan"
 #- si quieres poner una imagén al lado del título
 title: |
-  ![](imagenes/ababol_redondeado.png){width=0.5in}
+  ![](imagenes/ababol_redondeado.png){width=0.5in  style="opacity: 0.4;"}
   Los pingüinos molan
 description: |
   Viendo si con los datos de pingüinos se aprecia la paradoja de Simpson
@@ -33,7 +33,6 @@ categories: [trabajo BigData, pinguinos]
 
 format:
   html:
-    favicon: imagenes/uv.jpeg          
     #- https://quarto.org/docs/output-formats/html-themes.html
     theme: flatly   
     #- code highlight: https://quarto.org/docs/output-formats/html-code.html#highlighting        
